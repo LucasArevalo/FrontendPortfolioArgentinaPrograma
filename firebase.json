@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/proyeto-integrador-arevalo-lucas-fabian",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
